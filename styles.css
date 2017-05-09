@@ -1,0 +1,51 @@
+﻿body
+{
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+div.racetrack {
+	position: relative;
+	top: 80px;
+	left: 0px;
+	height: 225px;
+	border-style: none;
+	padding: 0px;
+    background-color:transparent;
+	}
+div.resError {
+	position: relative;
+	display: none;
+	text-align: center;
+	top: 80px;
+	left: 0px;
+	border-style: none;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+        background-color:transparent;
+
+}
+div.control {
+	position:absolute; 
+	top: 600px;
+    left: 650px;
+	height: 200px;
+	border-style: none;
+	padding: 0px;
+        background-color:transparent;
+
+}
+/*Mizzou sucks*/
+#ship1 {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+/*MSU*/
+#ship2 {
+	position: absolute;
+	top: 140px;
+	left: 10px;
+}
