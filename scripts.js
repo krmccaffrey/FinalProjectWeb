@@ -33,7 +33,7 @@ if (windWidth < 800) {
 
 function startRace() {
     var xwidth = parseInt(windWidth);
-    banner.src = "greenbgLogo.jpg";
+    banner.src = "greenbgLogo.JPG";
     if (xwidth < 1200) {
         contImage.src = "fballTransp.png";
     }
@@ -72,19 +72,19 @@ function raceCont() {
     if (x1 >= xfinal || x2 >= xfinal) {
         clearTimeout(aniTimer);
         if (x1 >= xfinal) {
-            banner.src = "greenbgGoMiz.jpg";
+            banner.src = "greenbgGoMiz.JPG";
         }
         if (x2 >= xfinal) {
-            banner.src = "greenbgGOBEARS.jpg";
+            banner.src = "greenbgGOBEARS.JPG";
         }
         if (x2 >= xfinal && x1 >= xfinal) {
             banner.src = "RacingBanners_Tied.png"
         }
         if (xwidth < 1200) {
-            contImage.src = "greenbgFootballGo.jpg";
+            contImage.src = "greenbgFootballGo.JPG";
         }
         if (xwidth >= 1200) {
-            contImage.src = "greenbgFootballGo.jpg";
+            contImage.src = "greenbgFootballGo.JPG";
         }
         racetrack.style.backgroundColor = "transparent";
     }
